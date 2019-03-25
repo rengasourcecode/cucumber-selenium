@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "With valid credentials user enters the login page",
+        "description": "",
+        "id": "facebook-login;with-valid-credentials-user-enters-the-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22821497033,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is the facebook login page",
+            "match": {
+              "location": "DefnFB.user_is_the_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1620811103,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters the username",
+            "match": {
+              "location": "DefnFB.user_enters_the_username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1780965484,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters the password",
+            "match": {
+              "location": "DefnFB.user_enters_the_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24400738868,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks the submit button",
+            "match": {
+              "location": "DefnFB.user_clicks_the_submit_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook Login",
+    "description": "",
+    "id": "facebook-login",
+    "keyword": "Feature",
+    "uri": "src/test/java/FeatureScripts/test.Feature",
+    "tags": []
+  }
+]
